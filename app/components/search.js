@@ -7,7 +7,7 @@ class Search extends Component {
         e.preventDefault();
         let value = this.refs.username.value;
         this.props.searchProfile(value);
-        this.refs.usermane.value = '';
+        this.refs.username.value = '';
     }
     render() {
         return (
