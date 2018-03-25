@@ -1,1 +1,1 @@
-React refactoro of ES6 dashboard. Flexing js 💪!
+React refactor of ES6 dashboard. Flexing js 💪!
