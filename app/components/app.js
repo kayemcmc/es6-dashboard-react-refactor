@@ -9,7 +9,7 @@ class App extends Component {
     constructor(props){
         super(props);
         this.state = {
-            username: 'kayemcmc',
+            username: '',
             avatar: '',
             repos:'',
             company: '',
@@ -61,8 +61,8 @@ class App extends Component {
            <div>
             <Header children="Github Search React Refactor"/>
             <div className="container">
-            <Search />
-            <User />
+            <Search searchProfile={this.getUsers.bind(this)}/>
+            <User userData={this.state}/>
             </div>
           
            </div>
